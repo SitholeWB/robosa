@@ -1,5 +1,5 @@
 version: 2
-app-name: &app_name vuesion
+app-name: &app_name ROBOSA
 workspace-name: &working_directory ~/repo
 jobs:
   build:

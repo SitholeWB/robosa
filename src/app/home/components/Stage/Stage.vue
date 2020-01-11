@@ -5,8 +5,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <img src="logo.png" alt="vuesion" />
-          <vue-headline level="1">vuesion</vue-headline>
+          <vue-headline level="1">ROBOSA</vue-headline>
           <div :class="$style.subTitle">
             {{
               $t(
@@ -17,15 +16,6 @@
 
           <br />
 
-          <a
-            :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
-            target="_blank"
-            rel="noopener"
-            aria-label="vuesion github repository"
-          >
-            <vue-icon-github />
-          </a>
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>

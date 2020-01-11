@@ -5,102 +5,55 @@
       image="https://images.unsplash.com/photo-1549082984-1323b94df9a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
       alternative
     >
-      <vue-headline level="2">Developer Experience</vue-headline>
+      <vue-headline level="2">Clients Monitoring</vue-headline>
       <br />
-      <vue-headline level="3">Quick scaffolding</vue-headline>
-      <p>Create components, VueX connected components, modules - and their tests - right from the CLI!</p>
+      <vue-headline level="3">Social Media</vue-headline>
+      <ul>
+        <li>We use Artificial Intelligence to monitor your company page, we check users emotions(happy/sad/angry) on your posts.</li>
+        <li>We provide many ways of grouping inormation you need like grouping with emotions.</li>
+        <li>We also provide a monitoring service that can be instructed to auto delete certain comments.</li>
+      </ul>
       <br />
-      <vue-headline level="3">Instant feedback</vue-headline>
-      <p>
-        Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the
-        CSS and TypeScript are reflected instantaneously without refreshing the page or restarting your server. Preserve
-        application state even when you update something in the underlying code!
-      </p>
+      <vue-headline level="3">Inboxes</vue-headline>
+      <ul>
+        <li>We collect inbox messages from different social netwok into one managable inbox, and respond to users from also support.</li>
+        <li>We also provide help desk that nicely integrate with social media inboxes.</li>
+      </ul>
       <br />
-      <vue-headline level="3">Tons of use-cases</vue-headline>
-      <p>
-        e.g. HttpService with interceptors, vuex persist middleware, redirect scenarios, configs for different
-        environments, etc.
-      </p>
+      <vue-headline level="3">Presetation</vue-headline>
+      <p></p>
+      <ul>
+        <li>We present you information in an easy graphs that are easy to read and quickly get overview on customer satisfication about your company.</li>
+      </ul>
     </home-section>
 
     <home-section
       image="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
       flip
     >
-      <vue-headline level="2">Enterprise ready</vue-headline>
+      <vue-headline level="2">Automatic Services</vue-headline>
       <br />
-      <vue-headline level="3">SEO</vue-headline>
       <p>
-        We support SEO (document head tags management) and server-side-rendering for search engines that support
-        indexing of JavaScript content. (eg. Google)
+        We provide automation of your daily tasks, like sending invoices, payments reminders, sending birthday wishes to your clients, etc.
       </p>
-      <br />
-      <vue-headline level="3">Best practices</vue-headline>
-      <p>
-        A Common style guide, TypeScript, and the best test setup: Automatically guarantee code quality and non-breaking
-        changes.
-      </p>
-      <br />
-      <vue-headline level="3">i18n</vue-headline>
-      <p>
-        Scalable apps need to support multiple languages, easily add and support multiple languages with vue-i18n.
-      </p>
-    </home-section>
-
-    <home-section
-      image="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      alternative
-    >
-      <vue-headline level="2">User experience</vue-headline>
-      <br />
-      <vue-headline level="3">Animations</vue-headline>
-      <p>
-        A stable animations set up already included (<a href="http://animejs.com/" target="_blank" rel="noopener"
-          >anime.js</a
-        >).
-      </p>
-      <br />
-      <vue-headline level="3">Progressive-Web-App</vue-headline>
-      <p>
-        Offline-first support with service-workers and a lighthouse score as high as possible (90+).
-      </p>
-      <br />
-      <vue-headline level="3">Design System</vue-headline>
-      <p>
-        Includes a blueprint for a 100% customizable Design System with a huge amount of
-        <a href="/storybook" target="_blank" rel="noopener">components</a>.
-      </p>
-    </home-section>
+      <p>Our engineers will introduce Services that will integrate with your systems, use latest technology to automate your taks and make your life easy.</p>
+      </home-section>
 
     <home-section
       image="https://images.unsplash.com/photo-1516381548400-349d680edb56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
       flip
     >
-      <vue-headline level="2">Quick start</vue-headline>
+      <vue-headline level="2">Apps for you</vue-headline>
       <br />
-      <vue-headline level="3">Via <code>npx</code></vue-headline>
+      <vue-headline level="3">Students Community</vue-headline>
       <br />
-      <ol>
-        <li>
-          Run <code>npx @vuesion/create [project-name]</code><br />
-          for example <code>npx @vuesion/create my-app</code>
-        </li>
-        <li>Change directory <code>cd my-app</code></li>
-        <li>Run <code>npm run dev</code></li>
-      </ol>
+      <p>
+      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.sitholewb.StudentsCommuity&hl=en">
+        Download from Google Play Store
+      </a>
+      </p>
       <br />
-      <br />
-      <vue-headline level="3">Via Git</vue-headline>
-      <br />
-      <ol>
-        <li>
-          Download or clone (<code>git clone https://github.com/<br />vuesion/vuesion</code>) the repository
-        </li>
-        <li>Change directory <code>cd vuesion</code></li>
-        <li>Install dependencies: <code>npm install</code></li>
-        <li>Run <code>npm run dev</code></li>
-      </ol>
+
     </home-section>
   </div>
 </template>
@@ -114,7 +67,7 @@ import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - flexible, scalable, opinionated, fast',
+    title: 'ROBOSA',
     meta: [
       {
         name: 'description',
