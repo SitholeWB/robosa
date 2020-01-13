@@ -18,8 +18,7 @@
       :cookie-consent-version="cookieConsentVersion"
       :set-cookie-consent-version="setCookieConsentVersion"
     >
-      This is a cookie consent component which shows the cookie consent every time you change the version of the
-      consent.
+      We use cookies to enhance your experience and for analytics just like almost all other sites does.
     </vue-cookie-consent>
 
     <vue-modal :show="showLoginModal" @close="showLoginModal = false">
