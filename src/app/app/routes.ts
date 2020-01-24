@@ -5,7 +5,14 @@ export const AppRoutes: RouteConfig[] = [
     path: '/not-found',
     component: () => import(/* webpackChunkName: "notFound" */ './NotFound/NotFound.vue').then((m) => m.default),
   },
-
+  {
+    path: '/contact',
+    component: () => import(/* webpackChunkName: "error" */ './Contact/Contact.vue').then((m) => m.default),
+  },
+  {
+    path: '/about',
+    component: () => import(/* webpackChunkName: "error" */ './About/About.vue').then((m) => m.default),
+  },
   {
     path: '/error',
     component: () => import(/* webpackChunkName: "error" */ './Error/Error.vue').then((m) => m.default),

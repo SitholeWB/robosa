@@ -5,8 +5,9 @@
     <vue-navigation-progress :is-navigating="isNavigating" />
 
     <vue-nav-bar>
-      <vue-button slot="right" color="primary" @click="onLogout">About Us</vue-button>
-      <vue-button slot="right" color="primary" @click="showLoginModal = true">Contact</vue-button>
+      <vue-button slot="right" color="primary" @click="goToHome">Home</vue-button>
+      <vue-button slot="right" color="primary" @click="goToAbout">About Us</vue-button>
+      <vue-button slot="right" color="primary" @click="goToContact">Contact</vue-button>
     </vue-nav-bar>
 
     <router-view :class="$style.content" />
@@ -125,15 +126,14 @@ export default {
       this.isLoginPending = false;
       this.showLoginModal = false;
     },
-    async onLogout() {
-      this.isLoginPending = true;
-
-      await this.revokeToken();
-
+    async goToHome() {
       this.$router.push('/');
-
-      this.isLoginPending = false;
-      this.showLoginModal = false;
+    },
+    async goToContact(){
+      this.$router.push('/contact');
+    },
+    async goToAbout(){
+      this.$router.push('/about');
     },
   },
   created() {
